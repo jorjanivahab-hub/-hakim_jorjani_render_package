@@ -1,0 +1,20 @@
+{
+    "services": [
+        {
+            "type": "web",
+            "name": "hakim-jorjani",
+            "env": "python",
+            "region": "oregon",
+            "buildCommand": "pip install -r requirements.txt && python manage.py migrate && python manage.py loaddata main/fixtures/courses.json && python manage.py collectstatic --noinput",
+            "startCommand": "gunicorn hakim_jorjani.wsgi:application",
+            "autoDeploy": true,
+            "envVars": {
+                "DJANGO_SETTINGS_MODULE": "hakim_jorjani.settings",
+                "PYTHON_VERSION": "3.11.8",
+                "SECRET_KEY": "replace_this_with_a_secure_random_key",
+                "DEBUG": "False",
+                "ALLOWED_HOSTS": "*"
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "model": "main.course",
+    "pk": 1,
+    "fields": {
+      "title": "طب سنتی",
+      "description": "آشنایی با اصول طب سنتی و گیاه‌درمانی",
+      "capacity": 20
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 2,
+    "fields": {
+      "title": "ماساژ",
+      "description": "آموزش تکنیک‌های ماساژ درمانی",
+      "capacity": 15
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 3,
+    "fields": {
+      "title": "صنعت خودرو",
+      "description": "آموزش تعمیر و نگهداری خودرو",
+      "capacity": 25
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 4,
+    "fields": {
+      "title": "برق صنعتی",
+      "description": "آموزش نصب و تعمیرات برق صنعتی",
+      "capacity": 20
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 5,
+    "fields": {
+      "title": "روانشناسی",
+      "description": "آشنایی با اصول روانشناسی و مشاوره",
+      "capacity": 30
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 6,
+    "fields": {
+      "title": "تأسیسات",
+      "description": "آموزش نصب و نگهداری سیستم‌های تأسیساتی",
+      "capacity": 20
+    }
+  }
+]

@@ -1,0 +1,6 @@
+body {font-family:Tahoma; direction:rtl; margin:0; padding:0; background:#f9f9f9;}
+header, footer {background:#004d66; color:white; text-align:center; padding:1em;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+main {padding:2em;}
+section {background:white; margin:1em 0; padding:1em; border-radius:6px;}
+button {background:#007b8a; color:white; border:none; padding:0.5em 1em; border-radius:4px;}
