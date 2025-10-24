@@ -1,1 +1,1 @@
-web: gunicorn hakim_jorjani.wsgi:application
+   web: cd hakim_jorjani && gunicorn hakim_jorjani.wsgi
