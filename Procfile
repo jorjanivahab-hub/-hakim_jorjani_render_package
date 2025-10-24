@@ -1,0 +1,1 @@
+web: gunicorn hakim_jorjani.wsgi:application
